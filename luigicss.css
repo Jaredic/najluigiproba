@@ -1,0 +1,49 @@
+#login.hidden{
+    display: none;
+}
+
+#xbutton{
+    display: inline;
+    position: fixed;
+    top: 10vh;
+    left: 90vw;
+}
+h1{
+    display: inline-block;
+    position: fixed;
+    font-size: 400%;
+    top: 15vh;
+    left: 40vw;
+
+}
+footer{
+    display: inline-block;
+    position: fixed;
+    font-size: 40%;
+    top: 75vh;
+    left: 40vw;
+    width: 30vw;
+}
+button{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+}
+
+#login{
+    position: absolute;
+    top : 0;
+    left : 0;
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    color : white ;
+}
+input{
+    color: black;
+}

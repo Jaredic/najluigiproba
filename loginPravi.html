@@ -9,9 +9,14 @@
 </head>
 
 <body>
-<div id="login">
-    <h1>VAGON</h1>
+    <button id='logeen'>LOGEEN</button>
+<div id="login" class='hidden'>
+   
+    <div id='logincontainer'>
+        <div id='logincontainerleft'>
 
+            <h2>Sign in</h2>
+            <p>to an existing account.</p>
     <div id='uname'>
         <label>Username:</label>
         <input type="text" id="username">
@@ -23,14 +28,21 @@
     </div>
 
     <div id="loginbutton"><button type="button">Log in</button></div>
-
-    <div id="signupref"><a href='https://store.steampowered.com/join/'>
-    Dont have an account? Click here to sign up for free!</a></div>
-
-    <button type="button" id='xbutton'>X</button>
     <footer>all rights reserved by Luka Jaredic and noone by Luka Bracovic or 
         Filip Stankovic
     </footer>
+        </div>
+        <div id='logincontainerright'>
+    <button type="button" id='xbutton'>X</button>
+    <h2>Create</h2>
+    <section>A new free account.</section>
+    <section> Its free to join and easy to use.Continue on to create your
+        Vagon account,the leading digital solution for PC,Mac and Linux games 
+        and software.
+    </section>
+    <div id='signupbutton'><button id='signup'>Join Vagon</button></div>
+        </div>   
+    </div>
 </div>
 </body>
 <script src="luigijs.js"> defer </script>

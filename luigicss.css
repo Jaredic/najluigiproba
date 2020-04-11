@@ -4,9 +4,9 @@
 
 #xbutton{
     display: inline;
-    position: fixed;
-    top: 10vh;
-    left: 90vw;
+    position: absolute;
+    top: 7%;
+    left: 94%;
 }
 h1{
     display: inline-block;
@@ -25,12 +25,17 @@ footer{
     width: 30vw;
 }
 button{
-    background-color: #4CAF50; 
+    background-color:rgb(16, 128, 168) ; 
     border: none;
     color: white;
+    border-radius: 5%;
+    font-size:120%;
 }
 
 #login{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color:grey;
     position: absolute;
     top : 0;
     left : 0;
@@ -42,8 +47,46 @@ button{
     justify-content: space-around;
     align-items: center;
 
-    color : white ;
+    
 }
 input{
     color: black;
+}
+#logincontainer{
+    background-color: rgb(4,60,117);
+    border-style: solid;
+    border-color: white;
+    width: 60vw;
+    height:50vh ;
+    position:fixed;
+    left:20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logincontainerleft{
+    flex-basis: 90%;
+    padding-left: 5%;
+}
+#logincontainerright > section{
+
+    border-left: solid rgb(2, 2, 105);
+    padding-left: 2%;
+}
+#loginbutton{
+    position : absolute;
+    left :5%;
+    bottom: 12%;
+
+}
+#logincontainerleft label{
+    display: block;
+    color: rgb(66, 173, 245);
+}
+#signupbutton{
+    position: absolute;
+    bottom : 12%;
+}
+#login h2{
+    color: white;
 }
